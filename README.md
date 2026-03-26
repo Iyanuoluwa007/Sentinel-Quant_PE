@@ -346,6 +346,33 @@ boundaries.
 
 ------------------------------------------------------------------------
 
+------------------------------------------------------------------------
+
+# Live API
+
+The system exposes a public metrics endpoint serving anonymized, real-time performance data:
+
+    GET https://quant-agent-dashboard.vercel.app/api/metrics
+
+**Response** (JSON, CORS-enabled):
+
+| Field | Description |
+|-------|-------------|
+| performance.total_return_pct | Cumulative portfolio return |
+| performance.sharpe_ratio | Risk-adjusted return metric |
+| performance.win_rate_pct | Percentage of profitable trades |
+| performance.total_trades | Lifetime trade count |
+| risk.regime | Current market regime (LOW_VOL / NORMAL / HIGH_VOL / CRISIS) |
+| risk.vix_level | Current VIX reading |
+| risk.portfolio_beta | Portfolio beta vs benchmark |
+
+**Example:**
+
+    curl https://quant-agent-dashboard.vercel.app/api/metrics
+
+No authentication required. Position details and trade reasoning are
+stripped for privacy. Data refreshes every 30 minutes during market hours.
+
 # Risk Disclosure
 
 Trading financial markets involves substantial risk.\
