@@ -1,4 +1,4 @@
-# Quant Agent v2.1 - Public Edition
+# Sentinel Quant v2.1 - Public Edition
 
 Multi‑strategy AI trading agent demonstrating a modular architecture for
 quantitative research, AI‑assisted analysis, and automated portfolio
@@ -108,7 +108,7 @@ the public version.
 
 ## Deterministic Risk Engine
 
-A core design principle of Quant Agent is:
+A core design principle of Sentinel Quant is:
 
 > **LLM outputs never bypass deterministic risk rules.**
 
@@ -294,7 +294,7 @@ Dashboard:
 
 # Project Structure
 
-    quant-agent/
+    sentinel-quant/
     │
     ├── agent.py
     ├── run.py
@@ -352,7 +352,7 @@ boundaries.
 
 The system exposes a public metrics endpoint serving anonymized, real-time performance data:
 
-    GET https://quant-agent-dashboard.vercel.app/api/metrics
+    GET https://sentinel-quant-dashboard.vercel.app/api/metrics
 
 **Response** (JSON, CORS-enabled):
 
@@ -368,7 +368,7 @@ The system exposes a public metrics endpoint serving anonymized, real-time perfo
 
 **Example:**
 
-    curl https://quant-agent-dashboard.vercel.app/api/metrics
+    curl https://sentinel-quant-dashboard.vercel.app/api/metrics
 
 No authentication required. Position details and trade reasoning are
 stripped for privacy. Data refreshes every 30 minutes during market hours.
@@ -392,7 +392,7 @@ MIT License
 
 # Attribution
 
-Quant Agent - Public Engineering Showcase\
+Sentinel Quant - Public Engineering Showcase\
 Developed by **Iyanuoluwa Oke**
 
 GitHub: https://github.com/Iyanuoluwa007
