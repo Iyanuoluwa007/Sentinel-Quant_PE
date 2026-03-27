@@ -4,7 +4,7 @@ Multi‑strategy AI trading agent demonstrating a modular architecture for
 quantitative research, AI‑assisted analysis, and automated portfolio
 monitoring.
 
-This **Public Edition (QA‑PE)** is a sanitized showcase version intended
+This **Public Edition (SQ‑PE)** is a sanitized showcase version intended
 for engineering demonstration and portfolio purposes. Certain components
 such as proprietary signals, calibrated thresholds, production broker
 integrations, and optimized portfolio parameters are intentionally
@@ -268,8 +268,8 @@ Dashboard panels include:
 
 Clone the repository:
 
-    git clone https://github.com/Iyanuoluwa007/Quant_Agent_PE.git
-    cd Quant_Agent_PE
+    git clone https://github.com/Iyanuoluwa007/Sentinel-Quant_PE.git
+    cd Sentinel-Quant_PE
 
 Environment setup:
 
