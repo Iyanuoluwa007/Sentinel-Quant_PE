@@ -15,7 +15,14 @@ integration, and quantitative engineering practices** without exposing
 proprietary trading logic.
 
 ---
+## Associated Paper
 
+This project is accompanied by the paper:
+
+**Sentinel Quant: A Human-in-the-Loop Multi-Model Portfolio Management System with Formal AI Governance Architecture**  
+[https://doi.org/10.5281/zenodo.19284847](https://doi.org/10.5281/zenodo.19284847)
+
+---
 # System Architecture
 
                         +------------------+
