@@ -1,4 +1,5 @@
 # Sentinel Quant v2.1 - Public Edition
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19284847.svg)](https://doi.org/10.5281/zenodo.19284847)
 
 Multi‑strategy AI trading agent demonstrating a modular architecture for
 quantitative research, AI‑assisted analysis, and automated portfolio
@@ -391,6 +392,25 @@ represent financial advice.
 
 ------------------------------------------------------------------------
 
+# Citation
+
+If you reference this project or its architecture, please cite:
+
+Oke, I. E. (2026). *Sentinel Quant: A Human-in-the-Loop Multi-Model Portfolio Management System with Formal AI Governance Architecture* (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.19284847
+
+```bibtex
+@report{oke2026sentinelquant,
+  author = {Oke, Iyanuoluwa Enoch},
+  title = {Sentinel Quant: A Human-in-the-Loop Multi-Model Portfolio Management System with Formal AI Governance Architecture},
+  year = {2026},
+  publisher = {Zenodo},
+  version = {1.0},
+  doi = {10.5281/zenodo.19284847},
+  url = {https://doi.org/10.5281/zenodo.19284847}
+}
+```
+
+---
 # License
 
 MIT License
