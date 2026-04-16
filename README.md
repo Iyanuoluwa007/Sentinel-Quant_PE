@@ -2,6 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19284847.svg)](https://doi.org/10.5281/zenodo.19284847)
 [![Dashboard](https://img.shields.io/badge/Live_Dashboard-sentinel--quant-blue)](https://sentinel-quant-dashboard.vercel.app)
+[![Feedback Form](https://img.shields.io/badge/Feedback-Google%20Form-green)](https://forms.gle/jKDN18pMzP3mCpJU6)
 
 Multi-strategy AI trading agent demonstrating a modular architecture for
 quantitative research, AI-assisted analysis, and automated portfolio
